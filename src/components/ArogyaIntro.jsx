@@ -462,18 +462,11 @@ export function ArogyaIntro() {
             </Section>
 
             <Section label="Clinical Intelligence in Action" id="Product">
-              <div className="relative w-full max-w-4xl mx-auto aspect-video rounded-3xl overflow-hidden shadow-2xl border border-slate-200 bg-slate-100">
-                <iframe
-                  className="w-full h-full"
-                  src="https://www.youtube.com/embed/tgd4UmkF2NI?autoplay=1&controls=0&loop=1&playlist=tgd4UmkF2NI"
-                  title="Arogya AI Demo"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                ></iframe>
+              <div className="relative w-full max-w-4xl mx-auto aspect-video rounded-3xl items-center flex justify-center  overflow-hidden shadow-2xl border border-slate-200 ">
 
-                {/* Optional: Subtle blue tint overlay (remove if you want original colors) */}
+                {/* Optional: Subtle blue tint overlay (remove if you want original colors)
+                 */}
+                 <span>Promo video will be uploaded soon.</span>
                 <div className="absolute inset-0 bg-blue-900/10 pointer-events-none" />
               </div>
             </Section>
