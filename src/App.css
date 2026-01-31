@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* 1. Reset the foundation */
+body,
+        html {
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          height: 100%;
+          background-color: #000000;
+          overflow-x: hidden;
+          scroll-behavior: smooth; /* ADD THIS LINE */
+        }
+
+/* 2. Style specifically for Lenis */
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+/* 3. The Fix: Hide one, keep the other */
+html {
+  overflow-y: scroll; /* Keep the track so the page doesn't jump */
+}
+
+body {
+  overflow-y: hidden; /* Prevent the body from having its own scrollbar */
+  min-height: 100%;
+}
